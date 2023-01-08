@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap'); 
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background: #202014;
+	color: #ddd;
+	font-family: 'Sevillana', cursive;
+
+}
+.container_player{
+	
+
+}
+
+img{
+	width:300px;
+	height: 300px;
+}
+
+
+.descrincao{
+	width: 300px;
+}
+
+.descrincao h2{
+	margin-bottom: 5px;
+}
+
+.durationmusic{
+	width: 300px;
+	
+	margin-top: 18px;
+}
+
+.barra{
+	width: 300px;
+
+	height: 7px;
+	border:1px solid #eee;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+progress{
+	height: 6px;
+	width: 0%;
+	background-color: #333;
+}
+
+.pointer{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: rgb(248, 255, 238);
+	margin-left: -10px;
+}
+
+.time{
+	display: flex;
+	width: 300px;
+	justify-content: space-between;
+}
+
+
+.botao-play, .botao-pause{
+	font-size: 48px;
+
+	cursor: pointer;
+}
+
+
+
+.player-controls{
+	font-size: 40px;
+	width: 300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top:14px;
+	cursor: pointer;
+}
+
+.botao-pause{
+	display: none;
+
+
+}
+
+
+/*ok       */
