@@ -1,7 +1,9 @@
-<?php include ('info_player.php'); 
-//$IN = new infoPlayer(); 
-//$IN->pegaNome();
-
+<?php 
 include ('pages/home.php');
+
+//include (''); 
+//$IN = new infoPlayer(); 
+//$IN->getTitle();
+
 
 ?>
