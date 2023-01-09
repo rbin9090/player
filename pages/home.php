@@ -15,6 +15,8 @@
 <body>
 <div class="container_player">
 
+	
+
 	<img src="img/player-bg.png">
 
 <div class="descrincao">
