@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +16,7 @@
 
 <body>
 <div class="container_player">
+	<div>adicionar busca aqui</div>
 
 	
 
